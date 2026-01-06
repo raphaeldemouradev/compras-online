@@ -1,0 +1,45 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; /* Ou sua fonte preferida */
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  line-height: 1.6;
+}
+
+.conteudo-principal {
+  min-height: 100vh;
+}
+
+/* Estilo apenas para o container do botão de transição na Home */
+.home-cta-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #ffffff; /* Fundo diferente para destacar do catálogo */
+}
+
+.btn-cta-principal {
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  padding: 20px 45px;
+  border-radius: 14px;
+  font-weight: 800;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-cta-principal:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.4);
+}
